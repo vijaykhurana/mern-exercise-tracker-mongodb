@@ -14,7 +14,7 @@ app.use(express.json());
 //const uri = process.env.ATLAS_URI;
 //mongoose.connect(uri, { useNewUrlParser: true, useCreateIndex: true }
 
-//copy uri value from reactjs notes
+//Enter MongoDB uri 
 const uri = ""
 mongoose.connect(uri );
 const connection = mongoose.connection;
