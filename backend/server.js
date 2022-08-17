@@ -15,7 +15,7 @@ app.use(express.json());
 //mongoose.connect(uri, { useNewUrlParser: true, useCreateIndex: true }
 
 //Enter MongoDB uri 
-const uri = ""
+const uri = "mongodb+srv://vijaykhurana:Xv5e35kVguYUoRhk@cluster0.19c4krn.mongodb.net/testdb?retryWrites=true&w=majority"
 mongoose.connect(uri );
 const connection = mongoose.connection;
 connection.once('open', () => {
